@@ -1,0 +1,15 @@
+@import "../style";
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: $primary-color;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: $border-radius;
+  font-size: 18px;
+}

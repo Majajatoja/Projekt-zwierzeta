@@ -1,0 +1,19 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "components/header";
+@import "components/footer";
+@import "components/product-card";
+
+body {
+  font-family: Arial, sans-serif;
+  background: $secondary-color;
+  margin: 0;
+  color: $text-color;
+}
+
+.container {
+  max-width: $max-width;
+  margin: auto;
+  padding: 20px;
+}

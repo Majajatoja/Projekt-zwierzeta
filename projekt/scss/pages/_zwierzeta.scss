@@ -1,0 +1,12 @@
+@import "../style";
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
